@@ -16,10 +16,10 @@ html {
 
 .parallax {
     /* The image used */
-    background-image: url('/img/raiz3.png');
+    background-image: url('/img/fincaFrutyGreen.png');
 
     /* Full height */
-    height: 110vh;
+    height: 100vh;
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
@@ -116,6 +116,19 @@ main {
     /* Elimina espacios innecesarios */
 }
 
+.titulo2{
+    background-color: hsla(0, 0%, 0%, 0.404);
+    color:white;
+    width: 100%;
+    padding: 30px;
+}
+
+#seccion1 h1{
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
 #seccion1 img {
     width: 100%;
     /* Imagen ocupa todo el ancho del contenedor */
@@ -123,35 +136,24 @@ main {
     /* Mantiene proporciones */
     display: block;
     /* Elimina espacio blanco debajo de la imagen */
-}
-
-#seccion1 h1 {
-    font-size: 50px;
-    margin: 0;
-}
-
-#seccion5 .titulo {
-    margin-left: -5%;
+    
 }
 
 /* Ajustes para otras secciones */
 #seccion2 {
-    padding: 0 5% 0 15%;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
+    padding: 0 10% 0 10%;
+    display: grid;
+    grid-template-columns: 2fr 3fr;
     justify-content: center;
     align-items: center;
     text-align: justify;
+    margin-bottom: 50px;
 }
 
-#seccion5 {
-    padding: 10% 5% 0 10%;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
+#seccion2 h1{
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .caso-estudio {
@@ -161,6 +163,9 @@ main {
     align-content: center;
     justify-content: space-evenly;
     align-items: center;
+    padding: 0;
+    margin-left: 100px;
+    margin-right: 0;
 }
 
 .caso-mapa {
@@ -170,12 +175,64 @@ main {
     align-content: center;
     justify-content: space-evenly;
     align-items: center;
-    margin: 5%;
+    margin: 0;
 }
 
 .caso-mapa img {
     margin: 10% 0 0 0;
-    width: 80%;
+    width: 120%;
+}
+
+#seccion2 a{
+    background-color: #326111;
+    color:white;
+    text-decoration: none;
+    padding: 15px 20px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: 0.3s;
+    margin-top: 10px;
+}
+
+#seccion2 a:hover{
+    background-color: #c1fb97;
+    color: #000;
+}
+
+#seccion5 {
+    /* padding: 10% 5% 0 10%; */
+    padding: 0 10% 0 10%;
+    margin-top: 0px;
+    display: flex;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #e6dede;
+    height: 100px;
+    width: 100%;
+}
+
+#seccion5 .titulo {
+    margin-left: -5%;
+}
+
+#seccion5 h1{
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#seccion6 {
+    padding: 10% 5% 0 10%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #e6dede;
 }
 
 /* Estilos de la galería */
@@ -272,19 +329,24 @@ label.radio-label {
 }
 
 button[type="submit"] {
-    background-color: #3bb85b;
-    color: black;
+    background-color: #326111;
+    color: #fff;
     border: none;
     padding: 15px 20px;
     text-align: center;
     cursor: pointer;
-    font-size: 16px;
+    font-size: 17px;
     border-radius: 8px;
+    justify-content: center;
+    font-weight: bold;
 }
 
 button[type="submit"]:hover {
-    background-color: #000;
-    color: #fff;
+    background-color: #c1fb97;
+    color: #0d0d0d;
+    border: 3px, dotted,  #0d0d0d;
+    font-size: 18px;
+    font-weight: bold;
 }
 
 .forms {
@@ -301,15 +363,14 @@ button[type="submit"]:hover {
 }
 
 .contenido {
-    min-height: 120vh;
+    min-height: 80vh;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-
 }
 
 .contactenos {
-    padding: 0 10% 0 10%;
+    padding: 10% 10% 5% 10%;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
