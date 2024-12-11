@@ -6,7 +6,7 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    color: #f05454;
+    color: #000000;
     margin: 0;
     padding: 0;
     line-height: 1.6;
@@ -15,42 +15,50 @@ body {
     min-height: 100vh;
 }
 
-.header {
-    background-color: #6e5937;
-    color: white;
-    text-align: center;
+nav {
+    width: 100%;
+    background-color: #c1fb97;
     padding: 20px;
-}
-
-.navbar {
-    background-color: #a68e52;
-    padding: 15px;
     position: sticky;
     top: 0;
+    left: 0;
     z-index: 1000;
-}
-
-.navbar ul {
     display: flex;
-    list-style-type: none;
-    padding-left: 0;
-    margin: 0;
-    justify-content: space-evenly;
+    flex-direction: row;
+    align-self: flex-start;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: nowrap;
+    box-sizing: border-box; 
 }
 
-.navbar ul li {
-    margin: 0 15px;
-}
-
-.navbar ul li a {
+nav a {
+    font-size: 20px;
     text-decoration: none;
-    color: rgb(186, 247, 143);
-    font-weight: bold;
-    transition: color 0.3s;
+    color: #000;
+    margin-right: 20px;
+    font-weight: normal;
 }
 
-.navbar ul li a:hover {
-    color: #e6f7ff;
+nav img {
+    display: inline-block;
+    width: 20%;
+    padding: 0 !important;
+}
+
+.nav-align {
+    float: right;
+}
+
+nav a:hover {
+    font-size: larger;
+    font-weight: bolder;
+}
+
+.derecha {
+    margin-top: 55px;
+    float: right;
+    font-weight: bolder;
 }
 
 .layout-grid {
@@ -68,7 +76,7 @@ body {
 }
 
 .calculadora {
-    background-color: #ffffff;
+    background-color: #fff;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -96,8 +104,8 @@ select {
 }
 
 button#calcular-btn {
-    background-color: #005299;
-    color: white;
+    background-color: #8ecf60;
+    color: #000;
     border: none;
     padding: 10px 20px;
     font-size: 1rem;
@@ -107,7 +115,7 @@ button#calcular-btn {
 }
 
 button#calcular-btn:hover {
-    background-color: #013664;
+    background-color: #b1fd7a;
 }
 
 .resultados {
@@ -131,11 +139,12 @@ button#calcular-btn:hover {
 }
 
 .footer {
-    background-color: #6e5937;
-    color: white;
+    background-color: #c1fb97;
+    color: #000;
     text-align: center;
-    padding: 10px;
-    margin-top: auto;
+    padding: 20px 0;
+    position: relative; 
+    width: 100%;    
 }
 
 @media (max-width: 768px) {

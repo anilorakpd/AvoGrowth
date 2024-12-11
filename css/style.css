@@ -347,11 +347,11 @@ label {
 }
 
 footer{
-    background-color: #c1fb97; /* Or any desired color */
+    background-color: #c1fb97;
     color: #000;
     text-align: center;
     padding: 20px 0;
-    position: relative; /* Ensure it's not fixed or absolute */
+    position: relative; 
     width: 100%;
 
 }
