@@ -24,6 +24,7 @@ document.addEventListener("DOMContentLoaded", function () {
     );
   
     const ctx = document.getElementById("graficoTortaPlagas").getContext("2d");
+    
     new Chart(ctx, {
       type: "pie",
       data: {
@@ -54,6 +55,8 @@ document.addEventListener("DOMContentLoaded", function () {
           }
         }
       }
-    });
+    }
+
+  );
   });
   

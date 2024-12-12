@@ -26,45 +26,44 @@
     <div class="layout-grid">
         <main class="main-content">
             <section class="calculadora">
-                <h2>Calcula los costos de tu predio</h2>
+                <h2>Calcula la producción de tu predio</h2>
                 <form id="form_ahorro">
                     <div class="form-group">
-                        <label for="hectareas">Tamaño del terreno en hectareas: </label>
-                        <input type="number" id="hectareas" name="hectareas" min="0" required>
+                        <label for="hectareas">Tamaño del terreno en hectáreas</label>
+                        <input type="number" id="hectareas" name="hectareas" min="0" required placeholder="Digite el tamaño">
                     </div>
                     <div class="form-group">
-                        <label for="tipo-zona">Que tan humedo (lluvias) suele ser el lugar?:</label>
+                        <label for="tipo-zona">Generalmente, ¿qué tan húmedo (lluvias) es el ambiente?</label>
                         <select id="tipo-zona" name="tipo-zona" required>
-                            <option value="mucho">Es muy humedo</option>
+                            <option value="0">Seleccione una Opción</option>
+                            <option value="mucho">Muy húmedo</option>
                             <option value="medio">Suele haber humedad</option>
-                            <option value="poco">Es muy seco</option>
+                            <option value="poco">Muy seco</option>
                         </select>
                     </div>
-                    <button type="button" id="calcular-btn">Calcular</button>
+                    <button type="button" id="calcular-btn" class = "link2">Calcular</button>
                 </form>
             </section>
 
             <!-- Contenedor para mostrar los resultados del cálculo -->
             <section id="resultados" class="resultados hidden">
-                <h2>Resultados de productividad</h2>
+                <h2>Resultados aproximados de productividad</h2>
                 <div class="result-card">
-                    <p><strong>Consumo de agua estimado:</strong> <span id="consumo-agua"></span> Lit</p>
-                    <p><strong>Consumo energetico estimado:</strong> <span id="consumo-elec"></span> Kwh</p>
-                    <p><strong>Cantidad de arboles aproximados:</strong> <span id="cant-arboles"></span></p>
-                    <p><strong>Arboles productivos:</strong> <span id="arboles-productivos"></span></p>
-                    <p><strong>Arboles improductivos:</strong> <span id="arboles-improductivos"></span></p>
-                    <p><strong>Arboles que depronto erradiques:</strong> <span id="arboles-erradicados"></span></p>
-                    <p><strong>Resiembra en el año:</strong> <span id="arboles-resembrados"></span></p>
-                    <p><strong>Cantidad de zocas posibles:</strong> <span id="zocas"></span></p>
+                    <p>Consumo de agua: <span id="consumo-agua"></span> Lit</p>
+                    <p>Consumo energético: <span id="consumo-elec"></span> Kwh</p>
+                    <p>Cantidad de árboles: <span id="cant-arboles"></span></p>
+                    <p>Árboles productivos: <span id="arboles-productivos"></span></p>
+                    <p>Árboles improductivos: <span id="arboles-improductivos"></span></p>
+                    <p>Árboles a erradicar: <span id="arboles-erradicados"></span></p>
+                    <p>Resiembra en el año: <span id="arboles-resembrados"></span></p>
+                    <p>Cantidad de zocas: <span id="zocas"></span></p>
                 </div>
             </section>
         </main>
     </div>
 
     <footer class="footer">
-        <p>Creado por Portgas D. Anilorak - <a href="mailto:anilorakportgasd@gmail.com"
-                class="correo">Contáctame</a> -
-            Bootcamp Talento Tech Región 2 - 2024</p>
+        <p>Creado por AvoGrowth - Bootcamp Talento Tech Región 2 - 2024</p>
     </footer>
 
     <script src="../js/formulario.js"></script>

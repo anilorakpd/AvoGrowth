@@ -24,7 +24,6 @@
                     <a href="#seccion1">Desde la raíz</a>
                     <a href="#seccion2">Caso de estudio</a>
                     <a href="html/formulario1.html">Cultivo Inteligente</a>
-                    <a href="#seccion4">Balance</a>
                     <a href="#seccion5">AvoGrowth</a>
                 </div>
             </nav>
@@ -33,12 +32,11 @@
             <main>
                 <!-- Sección 1 - Parallax -->
                 <div id="seccion1" class="contenido">
-                    <div class="titulo">
+                    <div class="titulo2">
                         <h1>Desde la raíz</h1>
                         <!-- <img src="img/raiz3.png" alt="Desde la raiz" class="img"> -->
-                        <p>¿Alguna vez te has preguntado qué secretos esconde la tierra donde crece un aguacate?
-                            Sumérgete
-                            en un viaje desde las profundidades del suelo hasta la copa de los árboles.</p>
+                        <p>¿Alguna vez te has preguntado qué secretos esconde la tierra donde crece un aguacate?</p>
+                        <p>Sumérgete en un viaje desde las profundidades del suelo hasta la copa de los árboles.</p>
                     </div>
                 </div>
 
@@ -46,24 +44,25 @@
                 <div id="seccion2" class="contenido">
                     <div class="titulo">
                         <h1>Caso de Estudio</h1>
-                        <p>Explora nuestro caso de estudio sobre el cultivo de aguacates inteligentes y sostenibles, y
-                            cómo
-                            esta tecnología cambia la agricultura.</p>
+                        <p><a class="link" href="https://frutygreen.com/">Fruty Green</a> es una empresa colombiana líder en la producción de aguacates Hass. Utilizando tecnologías avanzadas y prácticas agrícolas sostenibles, cultiva y comercializa aguacates de alta calidad a nivel nacional e internacional. Este caso de estudio analiza algunos aspectos relevantes de su producción de aguacates.</p>
                     </div>
                     <div class="caso-estudio">
                         <div class="caso-mapa">
                             <img src="img/mapa/Aguacate.png" alt="mapa caso de estudio">
                         </div>
                     </div>
+                    <a class = "link2" href="html/dashboard.html">Visualizar</a>
                 </div>
 
                 <!-- Sección 5 - Parallax -->
                 <div id="seccion5" class="contenido">
                     <div class="titulo">
                         <h1>AvoGrowth</h1>
-                        <p>Descubre más sobre nuestra visión y misión para transformar la agricultura en un mundo más
-                            sostenible a través de la tecnología.</p>
+                        <p>Presenta una solución tecnológica innovadora para empoderar a los productores de aguacate en la optimización de sus cultivos. A través de esta plataforma intuitiva, podrán recolectar y analizar datos clave para tomar decisiones más informadas y eficientes.</p><br><br>
+                        <p>Nuestro equipo de trabajo:</p>
                     </div>
+                </div>
+                <div id="seccion6" class="contenido">
                     <table class="cards">
                         <tbody>
                             <tr>
@@ -72,13 +71,13 @@
                                         <div class="flip-card">
                                             <div class="flip-card-inner">
                                                 <div class="flip-card-front">
-                                                    <img src="https://www.w3schools.com/howto/img_avatar.png"
-                                                        alt="Avatar" style="width:300px;height:300px;">
+                                                    <img src="img/perfiles/kro.png"
+                                                        alt="ScrumMaster" style="width:300px;height:300px;">
                                                 </div>
                                                 <div class="flip-card-back">
-                                                    <h1>John Doe</h1>
-                                                    <p>Architect & Engineer</p>
-                                                    <p>We love that guy</p>
+                                                    <h1>Carolina Castrillón</h1>
+                                                    <p class="scrum">Scrum Master</p>
+                                                    <p>Diseñadora gráfica con experiencia en investigaciones de mercado. Visualizo los resultados de estudios para crear productos que respondan a las necesidades del usuario.</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -89,13 +88,13 @@
                                         <div class="flip-card">
                                             <div class="flip-card-inner">
                                                 <div class="flip-card-front">
-                                                    <img src="https://www.w3schools.com/howto/img_avatar.png"
-                                                        alt="Avatar" style="width:300px;height:300px;">
+                                                    <img src="img/perfiles/andre.png"
+                                                        alt="DataAnalist" style="width:300px;height:300px;">
                                                 </div>
                                                 <div class="flip-card-back">
-                                                    <h1>John Doe</h1>
-                                                    <p>Architect & Engineer</p>
-                                                    <p>We love that guy</p>
+                                                    <h1>Andrea <br> Estrada</h1>
+                                                    <p class="scrum">Data Analist</p>
+                                                    <p>Técnica en Gerontología, con pasión por el análisis de datos, optimizar procesos y generar insights para la toma de decisiones.</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -106,13 +105,13 @@
                                         <div class="flip-card">
                                             <div class="flip-card-inner">
                                                 <div class="flip-card-front">
-                                                    <img src="https://www.w3schools.com/howto/img_avatar.png"
-                                                        alt="Avatar" style="width:300px;height:300px;">
+                                                    <img src="img/perfiles/jero.png"
+                                                        alt="Developer" style="width:300px;height:300px;">
                                                 </div>
                                                 <div class="flip-card-back">
-                                                    <h1>John Doe</h1>
-                                                    <p>Architect & Engineer</p>
-                                                    <p>We love that guy</p>
+                                                    <h1>Jerónimo Cardona</h1>
+                                                    <p class="scrum">Developer</p>
+                                                    <p>Experto en bases de datos. Diseño, implemento y optimizo soluciones de almacenamiento de datos para garantizar la eficiencia y seguridad de la información.</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -130,23 +129,21 @@
                             <legend>Contáctenos:</legend>
                             <label for="name">Nombre completo:</label>
                             <input type="text" id="name" name="name" required placeholder="Ingresa tu nombre">
-                            <label for="email">Correo Electronico:</label>
+                            <label for="email">Correo electrónico:</label>
                             <input type="email" id="email" name="email" required placeholder="Ingresa tu correo">
-                            <label for="location">Ubicación (Pais/ciudad)</label>
+                            <label for="location">Ubicación (país/ciudad)</label>
                             <input type="text" id="location" name="location" required placeholder="Pon tu ubicación">
-                            <label for="recomendaciones">Envianos tus dudas y recomendaciones</label>
+                            <label for="recomendaciones">Envíanos tus dudas y recomendaciones</label>
                             <!-- <input type="text" id="recomendaciones" name="recomendaciones" required placeholder="Expresate con nosotros"> -->
                             <textarea id="recomendaciones" name="recomendaciones" rows="4" cols="200"></textarea>
                             <br>
-                            <button type="submit">Enviar Encuesta</button>
+                            <button type="submit">Enviar</button>
                         </fieldset>
                     </form>
 
                 </div>
                 <footer class="footer">
-                    <p>Creado por Portgas D. Anilorak - <a href="mailto:anilorakportgasd@gmail.com"
-                            class="correo">Contáctame</a> -
-                        Bootcamp Talento Tech Región 2 - 2024</p>
+                    <p>Creado por AvoGrowth - Bootcamp Talento Tech Región 2 - 2024</p>
                 </footer>
             </main>
         </div>

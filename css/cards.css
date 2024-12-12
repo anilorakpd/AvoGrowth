@@ -52,7 +52,22 @@ td {
 }
 
 .flip-card-back {
-    background-color: #2980b9;
+    background-color: #a6662e;
     color: white;
     transform: rotateY(180deg);
+    text-align: center;
+    justify-content: center;
+}
+
+.flip-card-back h1{
+    font-size: 60px;
+}
+
+.flip-card-back p{
+    font-size: 20px;
+}
+
+.flip-card-back .scrum{
+    font-size: 25px;
+    font-weight: bold;
 }
