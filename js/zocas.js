@@ -30,16 +30,12 @@ document.addEventListener("DOMContentLoaded", function () {
             label: "Resiembras",
             data: resiembras,
             borderColor: "rgba(54, 162, 235, 1)",
-            backgroundColor: "rgba(54, 162, 235, 0.2)",
-            fill: true,
             tension: 0.3
           },
           {
             label: "Zocas",
             data: zocas,
             borderColor: "rgba(255, 99, 132, 1)",
-            backgroundColor: "rgba(255, 99, 132, 0.2)",
-            fill: true,
             tension: 0.3
           }
         ]
@@ -63,7 +59,7 @@ document.addEventListener("DOMContentLoaded", function () {
             beginAtZero: true,
             title: {
               display: true,
-              text: "Cantidad"
+              text: "Cantidad de Zocas y Resiembra"
             }
           },
           x: {

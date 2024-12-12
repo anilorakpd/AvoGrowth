@@ -72,15 +72,25 @@ main{
   grid-gap: 10px;
   grid-auto-rows: minmax(100px, auto);
 }
+
+h1{
+  margin-top: 30px;
+  font-weight: 600;
+}
    
 /* Contenedor del gráfico */
 .chart-container {
   max-width: 900px;
+  max-height: 390px;
   margin: 20px auto;
   padding: 10px;
   background: white;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   border-radius: 8px;
+}
+
+#graficoTortaPlagas{
+  margin: 0 auto;
 }
    
 .canvas_all {
