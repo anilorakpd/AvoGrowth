@@ -37,7 +37,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 factorAhorro = 0.97; // 30% de ahorro energético
                 break;
             default:
-                factorAhorro = 0;
+                factorAhorro = 1;
         }
 
         // Cálculos del ahorro

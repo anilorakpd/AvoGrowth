@@ -141,7 +141,7 @@ main {
 
 /* Ajustes para otras secciones */
 #seccion2 {
-    padding: 0 10% 0 10%;
+    padding: 120px 10% 0 10%;
     display: grid;
     grid-template-columns: 2fr 3fr;
     justify-content: center;
@@ -183,7 +183,7 @@ main {
     width: 120%;
 }
 
-#seccion2 a{
+#seccion2 .link2{
     background-color: #326111;
     color:white;
     text-decoration: none;
@@ -201,12 +201,10 @@ main {
 }
 
 #seccion5 {
-    /* padding: 10% 5% 0 10%; */
-    padding: 0 10% 0 10%;
+    padding: 120px 10% 0 10%;
     margin-top: 0px;
     display: flex;
     flex-direction: row;
-    /* flex-wrap: wrap; */
     flex-wrap: nowrap;
     justify-content: center;
     align-items: center;
@@ -338,13 +336,15 @@ button[type="submit"] {
     font-size: 17px;
     border-radius: 8px;
     justify-content: center;
-    font-weight: bold;
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 button[type="submit"]:hover {
     background-color: #c1fb97;
     color: #0d0d0d;
-    border: 3px, dotted,  #0d0d0d;
+    /* border: 3px, dotted,  #0d0d0d; */
     font-size: 18px;
     font-weight: bold;
 }
